@@ -1,7 +1,7 @@
 import style from "./AvailableMeals.module.css";
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 
 function AvailableMeals() {
   const [meals, setMeals] = useState([]);

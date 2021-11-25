@@ -1,7 +1,7 @@
 import CartIcon from "../Cart/CartIcon";
 import style from "./HeaderCartButton.module.css";
 import CartContext from "../../store/cart-context";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 import { useEffect, useState } from "react";
 function HeaderCartButton(props) {
   const cartCtx = useContext(CartContext); //Entire component will be reevaluated when context changes
